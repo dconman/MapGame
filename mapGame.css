@@ -3,7 +3,7 @@
   width: 100%;
  }
 
-#options {
+.options {
   height: 20vh;
   width: 100%;
 }
@@ -33,7 +33,7 @@ button:hover {
   background: #3cb0fd;
   vertical-align: -0.1vw;
   margin-left: 0.55vw;
-  margin-right: 0.65vw;
+  margin-right: 0.6065vw;
   border-right: none;
   border-bottom: none;
   text-decoration: none;
