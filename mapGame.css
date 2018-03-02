@@ -3,39 +3,40 @@
   width: 100%;
  }
 
-.options {
+#options {
   height: 20vh;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
  
 .win {
-  color: green;
+  color: blue;
+  text-decoration: underline;
 }
 
 .lose {
   color: red;
+  text-decoration: line-through;
 }
 
 button {
-  font-family: Arial;
-  color: #ffffff;
   font-size: 1vw;
-  background: #3498db;
+  background: navajowhite;
   border:none;
   margin: 0.5vw;
   padding: 0.5vw 1vw 0.5vw 1vw;
-  border-right: solid #bbbbbb .1vw;
-  border-bottom: solid #bbbbbb .1vw;
-  text-decoration: none;
+  border-right: solid Gainsboro .1vw;
+  border-right: solid Gainsboro .1vw;
+  border-bottom: solid Gainsboro .1vw;
 }
 
 button:hover {
-  background: #3cb0fd;
+  background: moccasin;
   vertical-align: -0.1vw;
   margin-left: 0.55vw;
   margin-right: 0.6065vw;
   border-right: none;
   border-bottom: none;
-  text-decoration: none;
   font-size: 0.99vw
 }
